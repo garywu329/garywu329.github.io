@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    margin: 300px;
+}
+
+a:link, a:visited{
+    background-image: url("./Images/backgrounds/navybluewall.jpg");
+    background-color: blue;
+    color:white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-image: url();/*disabling background image*/
+    background-color: blueviolet;
+}
+
+body{
+    background-image: url("./Images/backgrounds/navybluewall.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
