@@ -2,20 +2,67 @@
     box-sizing: border-box;
 }
 
+.wrapper{
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
 body{
     font-family: Arial;
     padding: 20px;
     background: #f1f1f1;
 }
+header{
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 100%;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
 
-.header{
+footer{
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 100%;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+/* Topbar settings*/
+.banner{
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    background-image: url("./Images/backgrounds/mountainsplash.jpg");
+    background-size: cover;
 }
 
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: skyblue;
+}
 
+li{
+  float: left
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: blue;
+}
+/* end topbar settings */
 /* Add a card effect for articles */
 .card {
     background-color: white;
