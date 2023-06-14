@@ -1,0 +1,24 @@
+#header { 
+    position: relative;
+    float: left;
+    width: 50px; 
+    height: 500px;
+    background-color: #44f;
+}
+
+#footer { 
+    position: relative;
+    float: right; 
+    width: 50px;
+    height: 500px;
+    background-color: #44f;
+}
+
+#wrapper{   text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#main{ 
+    float:center;
+}
