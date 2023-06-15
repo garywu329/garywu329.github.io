@@ -37,3 +37,16 @@ function Slides(n){
     slides[Index -1].style.display = "block";
     dots[Index - 1].className += " active";
 }
+
+function displayImages(){
+    var images = '.Images/china2023';
+
+    if(images){
+        for(var i = 0, f; f=files[i];i++){
+            var r = new FileReader();
+            r.onload = (function(f)
+            
+            )
+        }
+    }
+}
