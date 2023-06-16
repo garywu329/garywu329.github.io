@@ -40,7 +40,8 @@ function Slides(n){
 
 function displayImages(){
     var images = '.Images/china2023';
-
+    console.log("File loaded from " + images);
+    FileSystem 
     if(images){
         for(var i = 0, f; f=files[i];i++){
             var r = new FileReader();
